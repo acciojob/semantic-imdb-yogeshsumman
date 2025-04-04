@@ -1,16 +1,139 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>The Shawshank Redemption</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .summary {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        aside {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 3px solid #3498db;
+            padding-left: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Header: Movie Name -->
+    <header>
+        <h1>The Shawshank Redemption</h1>
+    </header>
 
+    <!-- Nav: Links to Actors and Quotes sections -->
+    <nav>
+        <a href="#actor" id="nav-actor">Actors</a>
+        <a href="#quote" id="nav-quote">Quotes</a>
+    </nav>
+
+    <!-- Summary: Brief plot summary -->
+    <div class="summary">
+        <h2>Summary</h2>
+        <p>
+            *The Shawshank Redemption* is a 1994 drama film based on Stephen King's novella. It follows Andy Dufresne, a banker wrongfully convicted of murdering his wife and her lover, who is sentenced to life in Shawshank State Penitentiary. Over the years, Andy forms a friendship with fellow inmate Red, navigates the harsh realities of prison life, and secretly works on a plan that leads to an unexpected and inspiring conclusion.
+        </p>
+    </div>
+
+    <!-- Section: Actors -->
+    <section id="actor">
+        <h2>Actors</h2>
+        <p>
+            The film stars Tim Robbins as Andy Dufresne, a quiet and intelligent man who finds hope in the darkest of places. Morgan Freeman plays Ellis "Red" Redding, a seasoned inmate and the film's narrator, whose friendship with Andy becomes the heart of the story. Other notable actors include Bob Gunton as the corrupt Warden Norton and William Sadler as Heywood.
+        </p>
+    </section>
+
+    <!-- Section: Favorite Quote -->
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <blockquote>
+            "Hope is a good thing, maybe the best of things, and no good thing ever dies." – Andy Dufresne
+        </blockquote>
+    </section>
+
+    <!-- Aside: IMDb Rating and Release Date -->
+    <aside>
+        <h3>Additional Information</h3>
+        <p><strong>IMDb Rating:</strong> 9.3/10</p>
+        <p><strong>Release Date:</strong> September 23, 1994</p>
+    </aside>
+
+    <!-- Footer: Producer's Name -->
+    <footer>
+        <p>Produced by: Niki Marvin</p>
+    </footer>
+
+    <!-- Script tag as per the original code -->
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
